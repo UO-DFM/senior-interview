@@ -6,8 +6,7 @@
     "type": "git"
   },
   "license": "MIT",
-  "homepage": "https://github.com/solygambas/next-projects#readme",
-  "scripts": {
+    "scripts": {
     "dev": "next dev",
     "build": "next build",
     "export": "next export",
