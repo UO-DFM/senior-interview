@@ -34,3 +34,5 @@ Your task for this assessment will be to Dockerize the application and deploy it
 
 - The container deployed should not exceed 100 mb of memory usage when deployed (bonus: the container has less than 50 mb when deployed).
 - You will have to deploy the image on a virtual server hosted on the cloud (for example, an EC2 instance on AWS or GCE on GCP).
+
+Once you have written your implementation, open a pull request on this repository. This should be finished before your interview. Your submission will be evaluated based on code organization, efficiency, documentation, and style.
