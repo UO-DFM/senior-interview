@@ -1,9 +1,10 @@
 # DFM Senior Assesment
 
-This repository contains an assessment for the Department of Family Medicine's Senioe Software Developer position, written in November 2022.
+This repository contains an assessment for the Department of Family Medicine's Senioe Software Developer position, written in January 2023.
 
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
-
+This project consists of two parts:
+- A [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+- A .Net core project coming with the default minimal weatherforecast API.
 ## Getting Started
 
 First, run the development server:
@@ -30,9 +31,13 @@ Blogs have 7 different properties:
 
 ## Task
 
-Your task for this assessment will be to Dockerize the application and deploy it
+Your task for this assessment will be:
 
-- The container deployed should not exceed 100 mb of memory usage when deployed (bonus: the container has less than 50 mb when deployed).
-- You will have to deploy the image on a virtual server hosted on the cloud (for example, an EC2 instance on AWS or GCE on GCP).
+- Dockerize the application (Client & backend) and deploy it
+- Adding a post action to add a new summary (weather status); should be persisted in-memory no need for setting DB server
+- Fetching the weatherforecast and redering the result in About page
+- Posting a new weatherforecast summary from with the About page (simple form)
+- The containers deployed should not exceed 100 mb of memory usage when deployed (bonus: the container has less than 50 mb when deployed).
+- You will have to deploy the images on a virtual server hosted on the cloud (for example, an EC2 instance on AWS or GCE on GCP).
 
 Once you have written your implementation, create another repository and send the link to [aelachka@uottawa.ca](mailto:aelachka@uottawa.ca). This should be finished before your interview. Your submission will be evaluated based on code organization, efficiency, documentation, and style.
